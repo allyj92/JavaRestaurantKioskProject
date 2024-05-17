@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
+
         Scanner sc = new Scanner(System.in);
         while (true) {
             int choiceNumber = OrderManager.inputNumber(sc);
@@ -13,7 +16,9 @@ public class Main {
             if (!continueOrder.equalsIgnoreCase("Y")) {
                 System.out.println("[안내]주문을 종료합니다. 이용해 주셔서 감사합니다.");
                 break;
+
             }
+
         }
     }
 }
